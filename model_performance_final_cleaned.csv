@@ -1,0 +1,19 @@
+Model,Precision,Recall,F1,Support,F2
+Baseline (Dummy),0.0,0.0,0.0,26,0.0
+Logistic Regression (basic),0.16,0.58,0.26,26,0.3803278685407148
+Logistic Regression (SMOTE),0.16,0.62,0.25,26,0.3936507933383723
+Decision Tree,0.26,0.23,0.24,26,0.2354330706807613
+Decision Tree (tuned),0.0,0.0,0.0,26,0.0
+XGBoost (basic),0.07,1.0,0.12,26,0.2734374997863769
+XGBoost (tuned),0.33,0.04,0.07,26,0.0485294117290224
+"XGBoost (Threshold tuned, no SMOTE)",0.22,0.08,0.11,26,0.0916666665711805
+"Logistic Regression (SMOTE, simple)",0.2,0.65,0.31,26,0.4482758617598097
+"Logistic Regression (SMOTE, tuned)",0.15,0.46,0.23,26,0.3254716978061587
+"Logistic Regression (Threshold tuned, SMOTE)",0.17,0.54,0.26,26,0.3762295078883364
+"XGBoost (SMOTE, tuned)",0.17,0.54,0.26,26,0.3762295078883364
+"XGBoost (Threshold tuned, SMOTE)",0.29,0.23,0.26,26,0.2399280573813467
+"XGBoost (Threshold tuned, SMOTE - final)",0.11,0.85,0.19,26,0.3624031004942611
+"Logistic Regression (ADASYN, F2-tuned)",0.14,0.65,0.23,26,0.379464
+"XGBoost (ADASYN, F2-tuned)",0.16,0.69,0.26,26,0.410959
+"Logistic Regression (ADASYN, Tuned, F2-tuned)",0.16,0.65,0.26,26,0.408654
+"XGBoost (ADASYN, Tuned, F2-tuned)",0.16,0.69,0.26,26,0.410959
